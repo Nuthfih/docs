@@ -10,12 +10,12 @@ Berikut adalah penjelasan detail masing-masing fungsi beserta langkah-langkah ca
 Langkah pertama sebelum menggunakan fungsi-fungsi di bawah ini adalah mengimpornya ke dalam file JavaScript utama Anda.
 
 ```javascript
-// Sesuaikan path './websocket.js' dengan lokasi file di proyek Anda
 import { 
   openWebSocketSetId, 
+  connectws,
   sendMessagetoWebSocket, 
   closeWebSocket 
-} from './websocket.js';
+} from "https://cdn.jsdelivr.net/gh/crootjs/lib@0.0.1/websocket.js";
 ```
 ## 2. Membuka Koneksi & Menangkap Pesan
 
